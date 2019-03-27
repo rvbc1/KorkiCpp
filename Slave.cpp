@@ -47,5 +47,5 @@ Slave::~Slave()
 #ifdef _DEBUG
 	std::cout << "Runing slave destructor - Slave died" << std::endl;
 #endif // _DEBUG
-
+	all_slaves--;
 }
