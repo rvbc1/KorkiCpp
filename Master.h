@@ -5,7 +5,7 @@
 class Master
 {
 private:
-	Slave automatic_slave;
+	Slave automatic_slave = Slave("Jon" ,3);
 	Slave * dynamic_slave = nullptr;
 public:
 	Master();

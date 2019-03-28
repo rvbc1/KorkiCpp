@@ -2,6 +2,7 @@
 
 #define DEFAULT_HEALTH 3
 
+int Slave::all_slaves = 0;
 
 void Slave::init(std::string name, int health)
 {

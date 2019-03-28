@@ -4,8 +4,6 @@
 
 using namespace std;
 
-//ZADEKLAROWANIE GLOBALNE ZMIENNEJ STATYCZNEJ KLASY SLAVE DLA CALEGO PROGRAMU I WYZEROWANIE
-int Slave::all_slaves = 0;
 
 
 void showAmmonutOfSlaves() {
